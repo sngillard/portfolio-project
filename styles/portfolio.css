@@ -160,12 +160,11 @@ footer {
 
 footer .contact-box p {
   margin: 0;
+  font-size: 12px;
 }
 
-footer .email-link {
+footer a {
   text-decoration: none;
-  color: black;
-  font-size: 24px;
 }
 
 footer .email-link:hover {
@@ -222,5 +221,11 @@ footer .social-links a:hover {
   .col-lg-6 {
     text-align: center;
     padding-top: 90px;
+  }
+
+  footer {
+    padding: 40px;
+    font-size: 10px;
+    text-align: center;
   }
 }
