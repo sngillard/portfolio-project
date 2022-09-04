@@ -30,7 +30,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -44,7 +44,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -62,7 +62,7 @@ p {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .col-lg-6 {
@@ -148,12 +148,13 @@ nav li.active a {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 80px 0 40px;
 }
 
-footer .contact-box {
+.contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
+  margin: 60px;
   border-radius: 10px;
 }
 
@@ -196,22 +197,22 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
   .project-description {
-    padding: 0;
+    padding: 10px;
     text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .content-container {
+    padding: 10px 20px;
   }
 
   nav a {
