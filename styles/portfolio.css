@@ -200,8 +200,13 @@ footer .social-links a:hover {
     font-size: 26px;
   }
 
+  .hero {
+    margin: auto;
+  }
+
   .project-description {
     text-align: center;
+    padding: 30px 20px;
   }
 
   .content {
